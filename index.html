@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dark Mode</title>
+<style>
+body{
+color:red;
+text-align:center;
+margin:260px;
+font-style:italic;
+}
+.dark-mode{
+background-color:black;
+color:white;
+
+}
+button{
+background-color:blue;
+color:#fff;
+border:none;
+padding:10px;
+}
+button:hover{
+background-color:transparent;
+color:#000;
+border:1px solid;
+}
+</style>
+</head>
+<body>
+<h1>Dark Mode and Light Mode</h1>
+<button onclick="darkmode()">Click Karo</button>
+<script>
+let a=document.body;
+function darkmode(){
+a.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
